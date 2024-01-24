@@ -1,4 +1,4 @@
-; Useful Unicode (AHK Script) v9.1.2
+; Useful Unicode (AHK Script) v10.0.0-beta
 ; Made by CerebralDatabank (Gopal Othayoth)
 ; Website: https://cerebraldatabank.neocities.org/
 ; GitHub: https://github.com/CerebralDatabank
@@ -31,6 +31,7 @@
 ::`;`;nbsp`;::{U+00A0}
 ::`;`;figsp`;::{U+2007}
 ::`;`;thinsp`;::{U+2009}
+::`;`;nnsp`;::{U+202F}
 ::`;`;tab`;::{U+0009}
 ::`;`;nbhypn`;::{U+2011}
 ::`;`;tm`;::{U+2122}
@@ -135,9 +136,26 @@
 ::`;`;ddag`;::{U+2021}
 ::`;`;sect`;::{U+00A7}
 ::`;`;para`;::{U+00B6}
+::`;`;ibang`;::{U+203D}
+::`;`;dque`;::{U+2047}
+::`;`;dexl`;::{U+203C}
+::`;`;queexl`;::{U+2048}
+::`;`;exlque`;::{U+2049}
+::`;`;oline`;::{U+203E}
+::`;`;oline`;::{U+25CE}
+; Bullets
+::`;`;bull`;::{U+2022}
+::`;`;tbull`;::{U+2023}
+::`;`;hbull`;::{U+2043}
+::`;`;blbull`;::{U+204C}
+::`;`;brbull`;::{U+204D}
+::`;`;bullop`;::{U+2219}
+::`;`;invbull`;::{U+25D8}
+::`;`;wbull`;::{U+25E6}
+::`;`;fhbull`;::{U+2767}
+::`;`;rfhbull`;::{U+2619}
+::`;`;htbull`;::{U+2765}
 ; Brackets
-; ::`;`;langl`;::{U+2329} TODO remove
-; ::`;`;rangl`;::{U+232A}
 ::`;`;langl`;::{U+27E8}
 ::`;`;rangl`;::{U+27E9}
 ::`;`;prnlu`;::{U+239B}
@@ -159,6 +177,7 @@
 ::`;`;brcru`;::{U+23AB}
 ::`;`;brcrm`;::{U+23AC}
 ::`;`;brcrl`;::{U+23AD}
+; Below two are for two segment braces, above are for 3+ segment braces/brackets/etc.
 ::`;`;ulbrc`;::{U+23B0}
 ::`;`;urbrc`;::{U+23B1}
 ; Roman Numerals
@@ -236,6 +255,8 @@
 ::`;`;ccwintg`;::{U+2A11}
 ::`;`;ccointg`;::{U+2232}
 ::`;`;ccwointg`;::{U+2233}
+::`;`;uintg`;::{U+2320}
+::`;`;lintg`;::{U+2321}
 ::`;`;union`;::{U+222A}
 ::`;`;isec`;::{U+2229}
 ::`;`;elemof`;::{U+2208}
@@ -561,19 +582,41 @@
 ; Generic franc (proposed symbol)
 ::`;`;franc`;::{U+20A3}
 ::`;`;jpy`;::{U+00A5}
-; Other
+; Control characters and symbols
 ::`;`;null`;::{U+0000}
+::`;`;sfnull`;::{U+2400}
+::`;`;esc`;::{U+001B}
+::`;`;sfesc`;::{U+241B}
+::`;`;sfsp`;::{U+2420}
+::`;`;sfnl`;::{U+240A}
+::`;`;sfcr`;::{U+240D}
+::`;`;bel`;::{U+0007}
+::`;`;sfbel`;::{U+2407}
+::`;`;sfdc1`;::{U+2411}
+::`;`;sfdc2`;::{U+2412}
+::`;`;sfdc3`;::{U+2413}
+::`;`;sfdc4`;::{U+2414}
+::`;`;sfenq`;::{U+2405}
+::`;`;sfack`;::{U+2406}
+::`;`;sfnack`;::{U+2415}
+::`;`;sfbs`;::{U+2408}
+::`;`;sfdel`;::{U+2421}
+::`;`;sfht`;::{U+2409}
+::`;`;sfvt`;::{U+240B}
+::`;`;sfstx`;::{U+2402}
+::`;`;sfetx`;::{U+2403}
+::`;`;opnbox`;::{U+2423}
+; Other
 ::`;`;femoji`;::{U+FE0E}
 ::`;`;ftext`;::{U+FE0F}
 ::`;`;fhook`;::{U+0192}
 ::`;`;ufhook`;::{U+0191}
-; Shorthands
+; Shorthands (subject to change)
 ::`;`;dlta`;::{U+0394}
 ::`;`;mns`;::{U+2212}
 ::`;`;tht`;::{U+03B8}
-; ::`;`;lang`;::{U+2329} TODO remove
-; ::`;`;rang`;::{U+232A}
 ::`;`;lang`;::{U+27E8}
 ::`;`;rang`;::{U+27E9}
 ::`;`;tsp`;::{U+2009}
 ::`;`;iff`;::{U+21D4}
+::`;`;int`;::{U+222B}
