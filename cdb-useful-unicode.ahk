@@ -1,4 +1,4 @@
-; Useful Unicode (AHK Script) v10.0.0-beta
+; Useful Unicode (AHK Script) v10.0.0-beta.1
 ; Made by CerebralDatabank (Gopal Othayoth)
 ; Website: https://cerebraldatabank.neocities.org/
 ; GitHub: https://github.com/CerebralDatabank
@@ -79,6 +79,8 @@
 ::`;`;mellip`;::{U+22EF}
 ::`;`;micro`;::{U+00B5}
 ::`;`;mcr`;::{U+00B5}
+::`;`;mdot`;::{U+00B7}
+::`;`;wsdot`;::{U+2E31}
 ::`;`;fw(`;::{U+FF08}
 ::`;`;fw)`;::{U+FF09}
 ::`;`;fw[`;::{U+FF3B}
