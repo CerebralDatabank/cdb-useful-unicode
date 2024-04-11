@@ -2,6 +2,8 @@
 
 A set of typing shortcuts to type several useful Unicode characters!
 
+![example](example.jpg)
+
 ## Installation
 
 1. Install the program:
