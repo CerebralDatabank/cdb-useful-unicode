@@ -3,7 +3,7 @@
 > [!NOTE]
 > This is an initial draft and will be added to later.
 
-This is a list of commonly-used shortcuts that are loosely "sorted" in order of estimated popularity. See [`docs/docs.md`](docs/docs.md) for the full documentation. (This document contains additional notes, while the full documentation is just a list of all shortcuts.)
+This is a list of commonly-used shortcuts that are loosely "sorted" in order of estimated popularity. See [`docs/docs.md`](docs.md) for the full documentation. (This document contains additional notes, while the full documentation is just a list of all shortcuts.)
 
 All shortcuts names consist of lowercase letters and only, except for those that have a single parenthesis character (e.g. `;;fw(;`).
 
