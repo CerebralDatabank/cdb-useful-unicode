@@ -18,7 +18,7 @@ async function main() {
       const codepoint = match[2];
       const uniName = await getName(codepoint);
       res.push([name, codepoint, uniName]);
-      md += `| ${name} | U+${codepoint} | ${uniName} |\n`;
+      md += `| \`;;${name};\` | U+${codepoint} | ${uniName} |\n`;
       console.log(`Processed: ${name} -> U+${codepoint} ${uniName}`);
     }
     // else {
