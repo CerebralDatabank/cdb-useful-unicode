@@ -14,6 +14,10 @@ A set of typing shortcuts to type several useful Unicode characters!
      3. Open a new Explorer window and enter `shell:startup` into the location bar.
      4. Move the shortcut into that folder.
 
+## Common Shortcuts
+
+Once you've installed CDB Useful Unicode, get started by checking out some common shortcuts [here](docs/common-docs.md)!
+
 ## Full Documentation
 
 See the full documentation at [`docs/docs.md`](docs/docs.md).
