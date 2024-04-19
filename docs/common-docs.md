@@ -78,6 +78,22 @@ Inserts the division sign {÷}.
 
 Inserts the square root (radical) sign {√}.
 
+### `;;figsp;`
+
+Inserts the figure space { }.
+
+This is a space that is defined to be equal to the width of one digit. It can be used for better alignment in contexts involving numbers.
+
+Example:  
+With normal (non-breaking) spaces:  
+1234  567  
+85947 385  
+23    5869  
+With figure spaces (keeping one normal space before second column):  
+1234  567  
+85947 385  
+23    5869
+
 ## Mathematical Symbols
 
 ### `;;lte;`
