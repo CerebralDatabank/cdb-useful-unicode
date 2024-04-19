@@ -204,6 +204,26 @@ Specifying `d` or `t` inserts the double {″} or triple {‴} prime symbols.
 
 Inserts the integral symbol {∫}.
 
+## `;;union;`
+
+Inserts the set union symbol {∪};
+
+## `;;isec;`
+
+Inserts the set intersection symbol {∩};
+
+## `;;and;`
+
+Inserts the Boolean AND symbol {∧};
+
+## `;;or;`
+
+Inserts the Boolean OR symbol {∨};
+
+## `;;xor;`
+
+Inserts the Boolean XOR symbol {⊻};
+
 ### `;;u(l|r)brc;`
 
 Inserts part of a two-line left brace (one of {⎰} {⎱}).
@@ -220,6 +240,38 @@ Inserts the therefore symbol {∴}.
 ### `;;bcs;`
 
 Inserts the because symbol {∵}.
+
+### `;;ds(n|z|q|r|c);`
+
+Inserts one of the double-struck letters {ℕ} {ℤ} {ℚ} {ℝ} {ℂ}.
+
+### `;;[n]elemof;`
+
+Inserts the element of symbol {∈}.
+
+Specifying `n` inserts the not element of symbol {∉}.
+
+### `;;[n]s(b|p)set[e];`
+
+Inserts the subset or superset symbol.
+
+Specifying `b`, `p` inserts {⊂} (subset), {⊃} (superset).
+
+Specifying `n` inserts the not subset/superset symbol (e.g. `;;nsbset;` → ⊄)
+
+Specifying `e` inserts the subset/superset or equals variant; for example:  
+`;;sbsete;` → ⊆  
+`;;nspsete;` → ⊉
+
+#### `;;forall;`
+
+Inserts the for all symbol {∀}.
+
+#### `;;th[n]ext;`
+
+Inserts the there exists symbol {∃}.
+
+Specifying `n` inserts the there does not exist symbol {∄}.
 
 ## Relational Algebra
 
