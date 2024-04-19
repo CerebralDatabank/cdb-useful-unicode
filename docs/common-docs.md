@@ -9,7 +9,8 @@ All shortcuts names consist of lowercase letters and only, except for those that
 
 Uppercase letters (e.g. `X`) signify something to be replaced.  
 Square brackets (e.g. `[a]`) indicate an optional part (either `a` or no `a`).  
-Parentheses (e.g. `(a|b)`) indicate a required choice (either `a` or `b`).
+A vertical line symbol (e.g. `[a|b]`) indicates a choice (either `a`, `b`, or nothing).  
+Parentheses (e.g. `(a|b)`) indicate a required choice (either `a` or `b`).  
 
 
 ## Common Symbols
@@ -79,6 +80,30 @@ Inserts the square root (radical) sign {√}.
 
 ## Mathematical Symbols
 
+### `;;lte;`
+
+Inserts the less than or equal to symbol {≤}.
+
+### `;;gte;`
+
+Inserts the greater than or equal to symbol {≥}.
+
+### `;;neq;`
+
+Inserts the not equal to symbol {≠}.
+
+### `;;aeq;`
+
+Inserts the approximately equal to symbol {≈}.
+
+### `;;sqrt;`
+
+Inserts the square root symbol {√}.
+
+### `;;cbrt;`
+
+Inserts the cube root symbol {∛}.
+
 ### `;;var[u]X;`
 
 Inserts a mathematical italic serif variable.
@@ -140,6 +165,24 @@ Inserts the summation symbol {∑}.
 ### `;;prod;`
 
 Inserts the product symbol {∏}.
+
+### `;;(l|r)floor;`
+
+Inserts the floor symbols {⌊} {⌋}.
+
+`l`/`r` specifies left/right.
+
+### `;;(l|r)ceil;`
+
+Inserts the floor symbols {⌈} {⌉}.
+
+`l`/`r` specifies left/right.
+
+### `;;[d|t]prime;`
+
+Inserts the prime symbol {′}.
+
+Specifying `d` or `t` inserts the double {″} or triple {‴} prime symbols.
 
 ### `;;intg;`
 
