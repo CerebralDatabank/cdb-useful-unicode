@@ -110,8 +110,90 @@ Examples:
 
 Choosing `p` inserts the superscript version and choosing `b` inserts the subscript version.
 
+Note that depending on font support, the `n` or `i` characters may not be properly aligned with the others.
+
 Examples:  
 `;;sup2;` → ²  
 `;;sub5;` → ₅  
 `;;sup+;` → ⁺  
 `;;sub);` → ₎
+
+### `;;dotop;`
+
+Inserts the dot operator sign {⋅}.  
+Note that this is commonly used for general multiplication as well as vector dot products.
+
+### `;;(l|r)[d]angl;`
+
+Inserts the angle bracket symbols {⟨} {⟩}.
+
+`l`/`r` specifies left/right.
+
+Specifying `d` inserts the double angle brackets {⟪} {⟫}.
+
+Note that single angle brackets are commonly used to distinguish vectors from general tuples (e.g. ⟨3, 2⟩) or to denote the inner product of two vectors (e.g. ⟨𝒖, 𝒗⟩).
+
+### `;;sum;`
+
+Inserts the summation symbol {∑}.
+
+### `;;prod;`
+
+Inserts the product symbol {∏}.
+
+### `;;intg;`
+
+Inserts the integral symbol {∫}.
+
+### `;;u(l|r)brc;`
+
+Inserts part of a two-line left brace (one of {⎰} {⎱}).
+
+For example, `;;ulbrc;` can be used on the first line and `;;urbrc;` on the second to get the following result:  
+Let the piecewise function 𝑓(𝑥) be:  
+⎰ 𝑥² if 𝑥 ≥ 0  
+⎱ −𝑥 if 𝑥 < 0
+
+### `;;thrfr;`
+
+Inserts the therefore symbol {∴}.
+
+### `;;bcs;`
+
+Inserts the because symbol {∵}.
+
+## Relational Algebra
+
+## `';;natjoin;`
+
+Inserts the natural join symbol {⨝}.
+
+## `';;lojoin;`
+
+Inserts the left outer join symbol {⟕}.
+
+## `';;rojoin;`
+
+Inserts the right outer join symbol {⟖}.
+
+## `';;fojoin;`
+
+Inserts the full outer join symbol {⟗}.
+
+## `';;lsjoin;`
+
+Inserts the left semijoin symbol {⋉}.
+
+## `';;rsjoin;`
+
+Inserts the right semijoin symbol {⋊}.
+
+## Other Symbols
+
+### `;;para;`
+
+Inserts the pilcrow (paragraph symbol) {¶}.
+
+### `;;sect;`
+
+Inserts the section sign {§}.
