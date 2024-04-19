@@ -28,6 +28,11 @@
 ::`;`;hypn-minus`;::{U+002D}
 ::`;`;endash`;::{U+2013}
 ::`;`;emdash`;::{U+2014}
+::`;`;2emdash`;::{U+2E3A}
+::`;`;3emdash`;::{U+2E3B}
+::`;`;figdash`;::{U+2012}
+::`;`;swdash`;::{U+2053}
+::`;`;hbar`;::{U+2015}
 ::`;`;nbsp`;::{U+00A0}
 ::`;`;figsp`;::{U+2007}
 ::`;`;thinsp`;::{U+2009}
@@ -165,6 +170,8 @@
 ; Brackets
 ::`;`;langl`;::{U+27E8}
 ::`;`;rangl`;::{U+27E9}
+::`;`;ldangl`;::{U+27EA}
+::`;`;rdangl`;::{U+27EB}
 ::`;`;prnlu`;::{U+239B}
 ::`;`;prnle`;::{U+239C}
 ::`;`;prnll`;::{U+239D}
@@ -183,6 +190,9 @@
 ::`;`;brce`;::{U+23AA}
 ::`;`;brcru`;::{U+23AB}
 ::`;`;brcrm`;::{U+23AC}
+::`;`;brcrl`;::{U+23AD}
+::`;`;lwsb`;::{U+27E6}
+::`;`;rwsb`;::{U+27E7}
 ::`;`;brcrl`;::{U+23AD}
 ; Below two are for two segment braces, above are for 3+ segment braces/brackets/etc.
 ::`;`;ulbrc`;::{U+23B0}
