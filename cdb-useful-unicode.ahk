@@ -23,9 +23,9 @@
 ::`;`;isrc`;::{U+2139}
 ::`;`;cisrc`;::{U+1F6C8}
 ::`;`;plusmn`;::{U+00B1}
-::`;`;minuspls`;::{U+2213}
-::`;`;minus`;::{U+2212}
-::`;`;hypn-minus`;::{U+002D}
+::`;`;mnspls`;::{U+2213}
+::`;`;mns`;::{U+2212}
+::`;`;hypn-mns`;::{U+002D}
 ::`;`;endash`;::{U+2013}
 ::`;`;emdash`;::{U+2014}
 ::`;`;2emdash`;::{U+2E3A}
@@ -675,7 +675,6 @@
 ::`;`;egnd`;::{U+23DA}
 ; Shorthands (subject to change)
 ::`;`;dlta`;::{U+0394}
-::`;`;mns`;::{U+2212}
 ::`;`;tht`;::{U+03B8}
 ::`;`;lang`;::{U+27E8}
 ::`;`;rang`;::{U+27E9}
