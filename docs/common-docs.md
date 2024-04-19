@@ -223,27 +223,27 @@ Inserts the because symbol {∵}.
 
 ## Relational Algebra
 
-## `';;natjoin;`
+## `;;natjoin;`
 
 Inserts the natural join symbol {⨝}.
 
-## `';;lojoin;`
+## `;;lojoin;`
 
 Inserts the left outer join symbol {⟕}.
 
-## `';;rojoin;`
+## `;;rojoin;`
 
 Inserts the right outer join symbol {⟖}.
 
-## `';;fojoin;`
+## `;;fojoin;`
 
 Inserts the full outer join symbol {⟗}.
 
-## `';;lsjoin;`
+## `;;lsjoin;`
 
 Inserts the left semijoin symbol {⋉}.
 
-## `';;rsjoin;`
+## `;;rsjoin;`
 
 Inserts the right semijoin symbol {⋊}.
 
