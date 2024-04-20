@@ -407,10 +407,16 @@
 ::`;`;varugamma`;::{U+1D6E4}
 ::`;`;vardelta`;::{U+1D6FF}
 ::`;`;varudelta`;::{U+1D6E5}
-::`;`;varepsilon`;::{U+1D700}
-::`;`;varuepsilon`;::{U+1D6E6}
+::`;`;varepsil`;::{U+1D700}
+::`;`;varuepsil`;::{U+1D6E6}
+::`;`;varepsils`;::{U+1D716}
+::`;`;varzeta`;::{U+1D701}
+::`;`;varuzeta`;::{U+1D6E7}
 ::`;`;vartheta`;::{U+1D703}
 ::`;`;varutheta`;::{U+1D6F3}
+::`;`;varkappa`;::{U+1D705}
+::`;`;varukappa`;::{U+1D6EB}
+::`;`;varkappas`;::{U+1D718}
 ::`;`;varlambda`;::{U+1D706}
 ::`;`;varulambda`;::{U+1D6EC}
 ::`;`;varmu`;::{U+1D707}
@@ -425,12 +431,14 @@
 ::`;`;varusigma`;::{U+1D6F4}
 ::`;`;varphi`;::{U+1D711}
 ::`;`;varuphi`;::{U+1D6F7}
+::`;`;varphis`;::{U+1D719}
 ::`;`;varchi`;::{U+1D712}
 ::`;`;varuchi`;::{U+1D6F8}
 ::`;`;varpsi`;::{U+1D713}
 ::`;`;varupsi`;::{U+1D6F9}
 ::`;`;varomega`;::{U+1D714}
 ::`;`;varuomega`;::{U+1D6FA}
+::`;`;varpdiff`;::{U+1D715}
 ; Mathematical Bold
 ; M Bold Lowercase
 ::`;`;mba`;::{U+1D41A}
@@ -594,6 +602,8 @@
 ::`;`;omega`;::{U+03C9}
 ::`;`;uomega`;::{U+03A9}
 ::`;`;lambda`;::{U+03BB}
+::`;`;kappa`;::{U+03BA}
+::`;`;ukappa`;::{U+039A}
 ::`;`;alpha`;::{U+03B1}
 ::`;`;beta`;::{U+03B2}
 ::`;`;gamma`;::{U+03B3}
