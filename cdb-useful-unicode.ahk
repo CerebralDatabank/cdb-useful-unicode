@@ -419,8 +419,8 @@
 ::`;`;varkappa`;::{U+1D705}
 ::`;`;varukappa`;::{U+1D6EB}
 ::`;`;varkappas`;::{U+1D718}
-::`;`;varlambda`;::{U+1D706}
-::`;`;varulambda`;::{U+1D6EC}
+::`;`;varlamda`;::{U+1D706}
+::`;`;varulamda`;::{U+1D6EC}
 ::`;`;varmu`;::{U+1D707}
 ::`;`;varumu`;::{U+1D6ED}
 ::`;`;varxi`;::{U+1D709}
@@ -606,8 +606,8 @@
 ::`;`;urho`;::{U+03A1}
 ::`;`;omega`;::{U+03C9}
 ::`;`;uomega`;::{U+03A9}
-::`;`;lambda`;::{U+03BB}
-::`;`;ulambda`;::{U+039B}
+::`;`;lamda`;::{U+03BB}
+::`;`;ulamda`;::{U+039B}
 ::`;`;kappa`;::{U+03BA}
 ::`;`;ukappa`;::{U+039A}
 ::`;`;xi`;::{U+03BE}
