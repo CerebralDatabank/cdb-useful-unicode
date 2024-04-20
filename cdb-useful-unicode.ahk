@@ -412,6 +412,8 @@
 ::`;`;varepsils`;::{U+1D716}
 ::`;`;varzeta`;::{U+1D701}
 ::`;`;varuzeta`;::{U+1D6E7}
+::`;`;vareta`;::{U+1D702}
+::`;`;varueta`;::{U+1D6E8}
 ::`;`;vartheta`;::{U+1D703}
 ::`;`;varutheta`;::{U+1D6F3}
 ::`;`;varkappa`;::{U+1D705}
@@ -421,6 +423,8 @@
 ::`;`;varulambda`;::{U+1D6EC}
 ::`;`;varmu`;::{U+1D707}
 ::`;`;varumu`;::{U+1D6ED}
+::`;`;varxi`;::{U+1D709}
+::`;`;varuxi`;::{U+1D6EF}
 ::`;`;varpi`;::{U+1D70B}
 ::`;`;varupi`;::{U+1D6F1}
 ::`;`;varrho`;::{U+1D70C}
@@ -599,11 +603,15 @@
 ::`;`;sigma`;::{U+03C3}
 ::`;`;usigma`;::{U+03A3}
 ::`;`;rho`;::{U+03C1}
+::`;`;urho`;::{U+03A1}
 ::`;`;omega`;::{U+03C9}
 ::`;`;uomega`;::{U+03A9}
 ::`;`;lambda`;::{U+03BB}
+::`;`;ulambda`;::{U+039B}
 ::`;`;kappa`;::{U+03BA}
 ::`;`;ukappa`;::{U+039A}
+::`;`;xi`;::{U+03BE}
+::`;`;uxi`;::{U+039E}
 ::`;`;alpha`;::{U+03B1}
 ::`;`;beta`;::{U+03B2}
 ::`;`;gamma`;::{U+03B3}
