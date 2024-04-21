@@ -20,6 +20,8 @@ A set of typing shortcuts to type several useful Unicode characters!
 
 Once you've installed CDB Useful Unicode, get started by checking out some common shortcuts [here](docs/common-docs.md)!
 
+You can also check out some examples of equations typed out with CDB Useful Unicode [here](docs/examples.md).
+
 ## Full Documentation
 
 See the full documentation at [`docs/docs.md`](docs/docs.md).
