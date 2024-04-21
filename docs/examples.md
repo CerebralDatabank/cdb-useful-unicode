@@ -17,11 +17,20 @@ Each example contains the following, in the below order:
 
 *Note that for equations like these, LaTeX is most likely preferred if your environment supports it. CDB Useful Unicode primarily exists for environments that only support plain text (e.g. text files, text messaging, etc.).*
 
+> [!WARNING]  
+> GitHub may not display the "LaTeX (inline text style)" section correctly. If that's the case, you can do the following to see the proper inline rendering:
+>
+> 1. Go to <https://katex.org/>
+> 2. Click the "Code" tab on GitHub to view the Markdown code of this file
+> 3. Copy the LaTeX code between `` $` `` and `` `$ ``
+> 4. Paste it in the preview on the Katex website
+> 5. Click the Settings icon and uncheck "displayMode"
+
 ## Simple integral
 
-$\displaystyle \int (x^2 - 2\pi x + \alpha ) dx = \frac{1}{3}x^3 - \pi x^2 + \alpha x + C$
+$`\displaystyle \int (x^2 - 2\pi x + \alpha ) dx = \frac{1}{3}x^3 - \pi x^2 + \alpha x + C`$
 
-$\int (x^2 - 2\pi x + \alpha ) dx = \frac{1}{3}x^3 - \pi x^2 + \alpha x + C$
+$`\int (x^2 - 2\pi x + \alpha ) dx = \frac{1}{3}x^3 - \pi x^2 + \alpha x + C`$
 
 ∫(𝑥² − 2𝜋𝑥 + 𝛼)𝑑𝑥 = (1⁄3)𝑥³ − 𝜋𝑥² + 𝛼𝑥 + 𝐶
 
@@ -31,9 +40,9 @@ $\int (x^2 - 2\pi x + \alpha ) dx = \frac{1}{3}x^3 - \pi x^2 + \alpha x + C$
 
 **NOTE**: GitHub's LaTeX renderer doesn't seem to support "italic uppercase eta", so I used a regular H instead. The Unicode version uses the proper letter.
 
-$\displaystyle H(X) = -\sum_{i=1}^n P(x_i)\log_2(P(x_i)) \qquad (|X| = n)$
+$`\displaystyle H(X) = -\sum_{i=1}^n P(x_i)\log_2(P(x_i)) \qquad (|X| = n)`$
 
-$H(X) = -\sum_{i=1}^n P(x_i)\log_2(P(x_i)) \qquad (|X| = n)$
+$`H(X) = -\sum_{i=1}^n P(x_i)\log_2(P(x_i)) \qquad (|X| = n)`$
 
 𝛨(𝑋) = −∑ᵢ₌₁ⁿ 𝑃(𝑥ᵢ)log₂(𝑃(𝑥ᵢ))  (|𝑋| = 𝑛)
 
@@ -41,11 +50,11 @@ $H(X) = -\sum_{i=1}^n P(x_i)\log_2(P(x_i)) \qquad (|X| = n)$
 
 ## Beziér curve formula
 
-*Note that Unicode does not support a multiline binomial notation, so the binomial coefficient is represented by $\displaystyle C_i^n$ instead of $\displaystyle \binom{n}{i}$.*
+*Note that Unicode does not support a multiline binomial notation, so the binomial coefficient is represented by $`\displaystyle C_i^n`$ instead of $`\displaystyle \binom{n}{i}`$.*
 
-$\displaystyle \boldsymbol{B}_n(t) = \sum_{i=0}^n C_i^n(1 - t)^{(n-i)}t^i \boldsymbol{P}_i \qquad (\text{given }\boldsymbol{P}_0, \boldsymbol{P}_1, \ldots , \boldsymbol{P}_n \text{ and } t \in [0, 1])$
+$`\displaystyle \boldsymbol{B}_n(t) = \sum_{i=0}^n C_i^n(1 - t)^{(n-i)}t^i \boldsymbol{P}_i \qquad (\text{given }\boldsymbol{P}_0, \boldsymbol{P}_1, \ldots , \boldsymbol{P}_n \text{ and } t \in [0, 1])`$
 
-$\boldsymbol{B}_n(t) = \sum_{i=0}^n C_i^n(1 - t)^{(n-i)}t^i \boldsymbol{P}_i \qquad (\text{given }\boldsymbol{P}_0, \boldsymbol{P}_1, \ldots , \boldsymbol{P}_n \text{ and } t \in [0, 1])$
+$`\boldsymbol{B}_n(t) = \sum_{i=0}^n C_i^n(1 - t)^{(n-i)}t^i \boldsymbol{P}_i \qquad (\text{given }\boldsymbol{P}_0, \boldsymbol{P}_1, \ldots , \boldsymbol{P}_n \text{ and } t \in [0, 1])`$
 
 𝑩ₙ(𝑡) = ∑ᵢ₌₀ⁿ 𝐶ᵢⁿ(1 − 𝑡)⁽ⁿ⁻ⁱ⁾𝑡ⁱ𝑷ᵢ  (given 𝑷₀, 𝑷₁, …, 𝑷ₙ and 𝑡 ∈ [0, 1])
 
