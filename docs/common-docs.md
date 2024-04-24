@@ -190,7 +190,7 @@ Inserts the floor symbols {⌊} {⌋}.
 
 ### `;;(l|r)ceil;`
 
-Inserts the floor symbols {⌈} {⌉}.
+Inserts the ceiling symbols {⌈} {⌉}.
 
 `l`/`r` specifies left/right.
 
