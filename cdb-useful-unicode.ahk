@@ -1,4 +1,4 @@
-; Useful Unicode (AHK Script) v10.0.0
+; CDB Useful Unicode (AHK Script) v10.0.2
 ; Made by CerebralDatabank (Gopal Othayoth)
 ; Website: https://cerebraldatabank.neocities.org/
 ; GitHub: https://github.com/CerebralDatabank
@@ -141,7 +141,11 @@
 ::`;`;succeqv`;::{U+227F}
 ::`;`;nprec`;::{U+2280}
 ::`;`;nsucc`;::{U+2281}
-::`;`;ndiv`;::{U+2224}
+::`;`;ang`;::{U+2220}
+::`;`;mang`;::{U+2221}
+::`;`;spang`;::{U+2222}
+::`;`;divds`;::{U+2223}
+::`;`;ndivds`;::{U+2224}
 ::`;`;astop`;::{U+2217}
 ::`;`;dag`;::{U+2020}
 ::`;`;ddag`;::{U+2021}
@@ -158,7 +162,12 @@
 ::`;`;caret`;::{U+2038}
 ::`;`;insym`;::{U+2380}
 ::`;`;etrsym`;::{U+2386}
-::`;`;altky`;::{U+2387}
+::`;`;altkey`;::{U+2387}
+::`;`;optkey`;::{U+2325}
+::`;`;uarrh`;::{U+2303}
+::`;`;darrh`;::{U+2304}
+::`;`;check`;::{U+2713}
+::`;`;balx`;::{U+2717}
 ; Media icons
 ::`;`;lbmt`;::{U+23F4}
 ::`;`;rbmt`;::{U+23F5}
@@ -226,6 +235,8 @@
 ; Below two are for two segment braces, above are for 3+ segment braces/brackets/etc.
 ::`;`;ulbrc`;::{U+23B0}
 ::`;`;urbrc`;::{U+23B1}
+::`;`;topsum`;::{U+23B2}
+::`;`;botsum`;::{U+23B3}
 ; Roman Numerals
 ; Uppercase
 ::`;`;rni`;::{U+2160}
@@ -398,7 +409,6 @@
 ::`;`;varux`;::{U+1D44B}
 ::`;`;varuy`;::{U+1D44C}
 ::`;`;varuz`;::{U+1D44D}
-::`;`;phi`;::{U+03D5}
 ::`;`;eulerc`;::{U+2107}
 ; Greek Vars
 ::`;`;varalpha`;::{U+1D6FC}
@@ -624,6 +634,8 @@
 ::`;`;theta`;::{U+03B8}
 ::`;`;mu`;::{U+03BC}
 ::`;`;tau`;::{U+03C4}
+::`;`;phi`;::{U+03C6}
+::`;`;psi`;::{U+03C8}
 ::`;`;ualpha`;::{U+0391}
 ::`;`;ubeta`;::{U+0392}
 ::`;`;ugamma`;::{U+0393}
@@ -634,8 +646,11 @@
 ::`;`;utheta`;::{U+0398}
 ::`;`;umu`;::{U+039C}
 ::`;`;utau`;::{U+03A4}
+::`;`;uphi`;::{U+03A6}
+::`;`;upsi`;::{U+03A8}
 ::`;`;chi`;::{U+03C7}
 ::`;`;uchi`;::{U+03A7}
+::`;`;phis`;::{U+03D5}
 ; Currency symbols
 ::`;`;eur`;::{U+20AC}
 ::`;`;cent`;::{U+00A2}
@@ -683,11 +698,11 @@
 ::`;`;house`;::{U+2302}
 ::`;`;vdsq`;::{U+2317}
 ::`;`;posind`;::{U+2316}
-::`;`;optky`;::{U+2325}
 ::`;`;poi`;::{U+2318}
 ::`;`;kbd`;::{U+2328}
 ::`;`;ersr`;::{U+2326}
 ::`;`;ersl`;::{U+232B}
+::`;`;ers`;::{U+2327}
 ::`;`;bnzn`;::{U+232C}
 ::`;`;bnznc`;::{U+23E3}
 ::`;`;softfn`;::{U+2394}
