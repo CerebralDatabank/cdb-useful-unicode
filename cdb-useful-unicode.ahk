@@ -1,4 +1,4 @@
-; CDB Useful Unicode (AHK Script) v10.0.1
+; CDB Useful Unicode (AHK Script) v10.0.2
 ; Made by CerebralDatabank (Gopal Othayoth)
 ; Website: https://cerebraldatabank.neocities.org/
 ; GitHub: https://github.com/CerebralDatabank
@@ -40,6 +40,7 @@
 ::`;`;emsp`;::{U+2003}
 ::`;`;ensp`;::{U+2002}
 ::`;`;tab`;::{U+0009}
+::`;`;zwsp`;::{U+200B}
 ::`;`;nbhypn`;::{U+2011}
 ::`;`;tm`;::{U+2122}
 ::`;`;sm`;::{U+2120}
@@ -687,6 +688,12 @@
 ::`;`;sfstx`;::{U+2402}
 ::`;`;sfetx`;::{U+2403}
 ::`;`;opnbox`;::{U+2423}
+; Box drawing and block elements characters
+::`;`;bdlh`;::{U+2500}
+::`;`;bdhh`;::{U+2501}
+::`;`;bdlv`;::{U+2502}
+::`;`;bdhv`;::{U+2503}
+::`;`;befull`;::{U+2588}
 ; Other
 ::`;`;femoji`;::{U+FE0E}
 ::`;`;ftext`;::{U+FE0F}
