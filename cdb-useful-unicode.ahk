@@ -1,4 +1,4 @@
-; CDB Useful Unicode (AHK Script) v10.0.2
+; CDB Useful Unicode (AHK Script) v10.1.0
 ; Made by CerebralDatabank (Gopal Othayoth)
 ; Website: https://cerebraldatabank.neocities.org/
 ; GitHub: https://github.com/CerebralDatabank
