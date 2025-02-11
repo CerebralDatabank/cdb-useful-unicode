@@ -273,6 +273,48 @@ Inserts the there exists symbol {∃}.
 
 Specifying `n` inserts the there does not exist symbol {∄}.
 
+## Playing Cards
+
+### `;;spades;`
+
+Inserts the spades symbol {♠}.
+
+### `;;clubs;`
+
+Inserts the clubs symbol {♣}.
+
+### `;;hearts;`
+
+Inserts the hearts symbol {♥}.
+
+### `;;diams;`
+
+Inserts the diamonds symbol {♦}.
+
+### `;;cardRS;`
+
+Inserts a playing card symbol.
+
+`R` is a rank from `a`–`k` (ace, 2–10, jack, queen, king).
+`S` is a suit in `s`, `c`, `h`, `d` (spades, clubs, hearts, diamonds).
+
+Examples:  
+`;;cardas;` → 🂡  
+`;;card2s;` → 🂢  
+`;;cardkh;` → 🂾  
+`;;card10c;` → 🃚  
+`;;card6d;` → 🃆
+
+### `;;cardbk;`
+
+Inserts the playing card back symbol {🂠} (the non-face side of a playing card).
+
+### `;;cardjkC;`
+
+Inserts a joker playing card symbol.
+
+`C` is a color in `r`, `b`, `w` (red, black, white).
+
 ## Relational Algebra
 
 ### `;;natjoin;`
