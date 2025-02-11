@@ -1,4 +1,4 @@
-; CDB Useful Unicode (AHK Script) v10.1.0
+; CDB Useful Unicode (AHK Script) v11.0.0
 ; Made by CerebralDatabank (Gopal Othayoth)
 ; Website: https://cerebraldatabank.neocities.org/
 ; GitHub: https://github.com/CerebralDatabank
@@ -694,6 +694,69 @@
 ::`;`;bdlv`;::{U+2502}
 ::`;`;bdhv`;::{U+2503}
 ::`;`;befull`;::{U+2588}
+; Playing cards
+; Suits
+::`;`;spades`;::{U+2660}
+::`;`;clubs`;::{U+2663}
+::`;`;hearts`;::{U+2665}
+::`;`;diams`;::{U+2666}
+; Cards
+::`;`;cardas`;::{U+1F0A1}
+::`;`;card2s`;::{U+1F0A2}
+::`;`;card3s`;::{U+1F0A3}
+::`;`;card4s`;::{U+1F0A4}
+::`;`;card5s`;::{U+1F0A5}
+::`;`;card6s`;::{U+1F0A6}
+::`;`;card7s`;::{U+1F0A7}
+::`;`;card8s`;::{U+1F0A8}
+::`;`;card9s`;::{U+1F0A9}
+::`;`;card10s`;::{U+1F0AA}
+::`;`;cardjs`;::{U+1F0AB}
+::`;`;cardqs`;::{U+1F0AD}
+::`;`;cardks`;::{U+1F0AE}
+::`;`;cardah`;::{U+1F0B1}
+::`;`;card2h`;::{U+1F0B2}
+::`;`;card3h`;::{U+1F0B3}
+::`;`;card4h`;::{U+1F0B4}
+::`;`;card5h`;::{U+1F0B5}
+::`;`;card6h`;::{U+1F0B6}
+::`;`;card7h`;::{U+1F0B7}
+::`;`;card8h`;::{U+1F0B8}
+::`;`;card9h`;::{U+1F0B9}
+::`;`;card10h`;::{U+1F0BA}
+::`;`;cardjh`;::{U+1F0BB}
+::`;`;cardqh`;::{U+1F0BD}
+::`;`;cardkh`;::{U+1F0BE}
+::`;`;cardad`;::{U+1F0C1}
+::`;`;card2d`;::{U+1F0C2}
+::`;`;card3d`;::{U+1F0C3}
+::`;`;card4d`;::{U+1F0C4}
+::`;`;card5d`;::{U+1F0C5}
+::`;`;card6d`;::{U+1F0C6}
+::`;`;card7d`;::{U+1F0C7}
+::`;`;card8d`;::{U+1F0C8}
+::`;`;card9d`;::{U+1F0C9}
+::`;`;card10d`;::{U+1F0CA}
+::`;`;cardjd`;::{U+1F0CB}
+::`;`;cardqd`;::{U+1F0CD}
+::`;`;cardkd`;::{U+1F0CE}
+::`;`;cardac`;::{U+1F0D1}
+::`;`;card2c`;::{U+1F0D2}
+::`;`;card3c`;::{U+1F0D3}
+::`;`;card4c`;::{U+1F0D4}
+::`;`;card5c`;::{U+1F0D5}
+::`;`;card6c`;::{U+1F0D6}
+::`;`;card7c`;::{U+1F0D7}
+::`;`;card8c`;::{U+1F0D8}
+::`;`;card9c`;::{U+1F0D9}
+::`;`;card10c`;::{U+1F0DA}
+::`;`;cardjc`;::{U+1F0DB}
+::`;`;cardqc`;::{U+1F0DD}
+::`;`;cardkc`;::{U+1F0DE}
+::`;`;cardbk`;::{U+1F0A0}
+::`;`;cardjkr`;::{U+1F0BF}
+::`;`;cardjkb`;::{U+1F0CF}
+::`;`;cardjkw`;::{U+1F0DF}
 ; Other
 ::`;`;femoji`;::{U+FE0E}
 ::`;`;ftext`;::{U+FE0F}
