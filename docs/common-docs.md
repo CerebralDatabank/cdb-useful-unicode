@@ -204,23 +204,23 @@ Specifying `d` or `t` inserts the double {″} or triple {‴} prime symbols.
 
 Inserts the integral symbol {∫}.
 
-## `;;union;`
+### `;;union;`
 
 Inserts the set union symbol {∪};
 
-## `;;isec;`
+### `;;isec;`
 
 Inserts the set intersection symbol {∩};
 
-## `;;and;`
+### `;;and;`
 
 Inserts the Boolean AND symbol {∧};
 
-## `;;or;`
+### `;;or;`
 
 Inserts the Boolean OR symbol {∨};
 
-## `;;xor;`
+### `;;xor;`
 
 Inserts the Boolean XOR symbol {⊻};
 
@@ -275,27 +275,27 @@ Specifying `n` inserts the there does not exist symbol {∄}.
 
 ## Relational Algebra
 
-## `;;natjoin;`
+### `;;natjoin;`
 
 Inserts the natural join symbol {⨝}.
 
-## `;;lojoin;`
+### `;;lojoin;`
 
 Inserts the left outer join symbol {⟕}.
 
-## `;;rojoin;`
+### `;;rojoin;`
 
 Inserts the right outer join symbol {⟖}.
 
-## `;;fojoin;`
+### `;;fojoin;`
 
 Inserts the full outer join symbol {⟗}.
 
-## `;;lsjoin;`
+### `;;lsjoin;`
 
 Inserts the left semijoin symbol {⋉}.
 
-## `;;rsjoin;`
+### `;;rsjoin;`
 
 Inserts the right semijoin symbol {⋊}.
 
